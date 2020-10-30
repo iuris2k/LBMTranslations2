@@ -1,0 +1,65 @@
+// Tipografías
+* {
+    font: {
+        family: "Lato", sans-serif;
+        family: "Roboto", sans-serif;
+    }
+}
+
+
+/* Estilo títulos */
+
+
+/*rfs*/
+
+
+/*Extend*/
+
+%titulos {
+    line-height: 1.3em;
+    font-weight: 400;
+    text: {
+        shadow: 2px 2px 5px white;
+        align: center;
+    }
+}
+
+
+/*Títulos*/
+
+h1 {
+    font-size: 3rem;
+    // font-weight: 700;
+    line-height: 1.3em;
+    text-shadow: 2px 2px 5px white;
+    color: #04903c;
+}
+
+h2 {
+    font-size: 2.7rem;
+    color: #04903c;
+    @extend %titulos;
+}
+
+h3 {
+    font-size: 2.4rem;
+    color: #04903c;
+    @extend %titulos;
+}
+
+h4 {
+    font-size: 2.1rem;
+    color: #04903c;
+    @extend %titulos;
+}
+
+// @for $i from 1 through 6 {
+//     h#{$i} {
+//         font-size: $i - 0.2rem;
+//         @extend %titulos;
+//     }
+// @for $i from 6 through 1 {
+//     h#{$i} {
+//         font-size: 0.5rem + $i;
+//     }
+// }

@@ -1,0 +1,78 @@
+// Body
+body {
+    margin: 0;
+    font: {
+        family: "Lato", sans-serif;
+        family: "Roboto", sans-serif;
+    }
+    height: 100%;
+}
+
+
+/* Dando estilo a main */
+
+.main {
+    padding-top: 4rem;
+}
+
+
+/* Estilo del contenido */
+
+.derecha {
+    text-align: right;
+}
+
+
+/* Imágenes y texo de página standard y services */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    clear: both;
+}
+
+.img1 {
+    float: left;
+    border-radius: 15px;
+}
+
+.img2 {
+    float: right;
+}
+
+
+/* Texto páginas standard y services */
+
+.standard p {
+    font: {
+        family: "Lato", sans-serif;
+        size: 1.5em;
+        style: italic;
+    }
+    text-shadow: 2px 2px 5px white;
+}
+
+.services {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.texto-principal p {
+    font: {
+        family: "Lato", sans-serif;
+        size: 1.5rem;
+        style: italic;
+    }
+    text-shadow: 2px 2px 5px white;
+}
+
+
+/*Estilo del Contenido foto*/
+
+.content {
+    background-color: #ddd;
+    padding: 65px;
+    text-indent: 10px;
+}

@@ -1,0 +1,38 @@
+//Backgrounds
+
+/* Img de fondo para c/u de las páginas */
+
+
+/*Extend*/
+
+%img {
+    width: 100%;
+    height: auto;
+    background: {
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+        attachment: fixed;
+    }
+}
+
+// /*Bucles Each*/
+// $fondo: fondo1 fondo2 fondo3 fondo4 fondo5;
+// @each $i in $fondo {
+//     .#{$i} {
+//         background-image: url("/img/#{$i}.jpg");
+//         @extend %img;
+//     }
+// }
+@each $fondo in fondo1,
+fondo2,
+fondo3,
+fondo4,
+fondo5 {
+    .#{$fondo} {
+        background-image: url("../img/#{$fondo}.jpg");
+        @extend %img;
+    }
+}
+
+// Los 2 funcionan

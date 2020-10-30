@@ -1,0 +1,13 @@
+[1003/155223.762:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1004/153843.582:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1005/122632.152:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1006/163515.938:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1007/125530.812:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/144049.471:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1009/002146.128:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1009/145645.534:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1015/201845.897:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1018/164357.448:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1019/202335.300:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1020/152711.394:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1022/162001.720:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
