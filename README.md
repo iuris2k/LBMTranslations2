@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> Página personal para Traductora Literaria y de Especialidad
+> Sitio web personal desarrollado para Traductora Literaria y de Especialidad
 
 ### 🏠 [Homepage](https://iuris2k.github.io/LBMTranslations2/)
 
